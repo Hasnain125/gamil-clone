@@ -1,0 +1,267 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+
+/* header start */
+.header__left img {
+    height: 25px;
+    object-fit: contain;
+}
+nav{
+  width: 100%;
+    padding: 5px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    height: 60px;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.header__midlle{
+    height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 20px;
+  
+  
+}
+.header__midlle input{
+  border: none;
+  outline: none;
+  width: 600px;
+  height: 45px;
+  background-color: whitesmoke;
+  font-size: 20px;
+
+}
+
+.header__right{
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+   gap: 5px;
+}
+
+.header__right i{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5em;
+    color: rgb(92, 90, 90);
+    }
+.header__left i{
+        cursor: pointer;
+        padding: 10px;
+        font-size: 1.5em;
+        color: rgb(92, 90, 90);
+        }
+
+.header__midlle i{
+     cursor: pointer;
+     padding: 10px;
+     font-size: 1.5em;
+     color: rgb(92, 90, 90); 
+            }
+svg:hover{
+background-color: whitesmoke;
+border-radius:20px ;
+padding: 10px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .header__midlle input{
+        width: auto;
+    }
+    nav{
+       justify-content: space-around;
+     padding: 0px;
+     width: auto;
+    }
+  }
+  /* header end */
+
+  .S-main{
+    display: flex;
+  }
+  /*  slide bar start */
+  .slide-bar1{
+    width: 14%;
+ display: flex;
+ flex-direction: column;
+ margin-top: 10px;
+ padding-right:20px ;
+ height: auto;
+
+ 
+ 
+  }
+  .button-com{
+    max-width: 170px;
+    margin: 15px 0px 5px 10px;
+    align-items: center;
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 23px ;
+    color:#001d35;
+    border: none;
+    outline: none;
+    background-color: #c2e7ff;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+    font-size: 1em;
+  }
+  .button-com:hover{
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+
+  }
+
+
+.icon-text{
+
+    display: flex;
+    gap: 15px;
+    height: 40px;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 14px;
+  border-top-right-radius: 20px;
+ border-bottom-right-radius:20px ;
+ font-weight: 100;
+ cursor: pointer;
+  }
+  .bg-h{
+   background-color: #c2dbff;
+  }
+  .icon-text:hover{
+    background-color:rgba(0, 0, 0, 0.1) ;
+  }
+
+  .set1{
+  display: flex;
+  justify-content: space-between;
+  }
+  @media only screen and (max-width: 768px) {
+   
+    .slide-bar1{
+      width: auto;
+    }
+ .icon-text{
+  font-size: 10px;
+
+
+  }
+  .button-com{
+    max-width: 120px;
+    padding: 10px ;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .slide-bar1{
+    width: auto;
+  }
+    
+  .icon-text{
+   font-size: 5px;
+   height: 20px;
+   padding: 0px 5px;
+ 
+ 
+   }
+   .button-com{
+     max-width: 100px;
+     padding: 2px ;
+     font-size: 0.3em;
+     margin: 10px 0px 2px 5px;
+     font-weight: 100;
+     gap: 5px;
+
+  }
+   }
+   @media only screen and (max-width: 435px) {
+   
+    
+    .icon-text{
+     font-size: 8px;
+     height: 20px;
+     padding: 0px 10px;
+   
+   
+     }
+     .button-com{
+       max-width: 100px;
+       padding: 5px ;
+       font-size: 0.5em;
+       margin: 15px 0px 2px 5px;
+       font-weight: 100;
+       gap: 5px;
+  
+    }
+    .slide-bar1{
+      width: auto;
+    }
+
+    
+
+     }
+  
+   /*  slide bar end*/
+
+   .slide-bar2{
+    width: 83vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom:1px solid whitesmoke ;
+    align-items: center;
+  
+   }
+   
+   .section1{
+    display: flex;
+    padding: 5px;
+    gap: 25px;
+    font-size: 16px;
+
+   }
+   .section2{
+    display: flex;
+    padding: 5px;
+    gap: 25px;
+    font-size: 16px;
+   
+
+   }
+   .slid-bar, i{
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+
+   }
+  #check{
+    height: 18px;
+    width: 18px;
+    outline: grey;
+    cursor: pointer;
+   }
+   p{
+   color: grey;
+   }
