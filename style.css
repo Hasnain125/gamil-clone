@@ -1,6 +1,7 @@
 *{
     margin:0px ;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header start */
@@ -103,6 +104,7 @@ padding: 10px;
  margin-top: 10px;
  padding-right:20px ;
  height: auto;
+
 
  
  
@@ -223,14 +225,18 @@ padding: 10px;
      }
   
    /*  slide bar end*/
+   .column{
+    display: flex;
+    flex-direction: column;
+
+   }
 
    .slide-bar2{
     width: 83vw;
-    height: 50px;
+    height: 5vh;
     display: flex;
     justify-content: space-between;
     background-color: white;
-    border-bottom:1px solid whitesmoke ;
     align-items: center;
   
    }
@@ -251,17 +257,130 @@ padding: 10px;
 
    }
    .slid-bar, i{
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
     cursor: pointer;
 
    }
   #check{
-    height: 18px;
-    width: 18px;
+    height: 15px;
+    width: 15px;
     outline: grey;
     cursor: pointer;
    }
    p{
    color: grey;
    }
+
+   .slide-bar2-sec1{
+    display: flex;
+    width: 60%;
+    height: 50px;
+   
+    justify-content: space-between;
+
+   }
+   .text-icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 10px;}
+
+    .text-icon p{
+      font-size: 16px;
+
+    }
+    #button{
+      background-color: green;
+      color: white;
+      border-radius: 10px;
+      padding: 0px 5px;
+
+    }
+    #button1{
+      background-color:blue;
+     color: white;
+      border-radius: 10px;
+      padding: 0px 5px;
+
+    }
+    #button2{
+      background-color: orange;
+      color: white;
+      border-radius: 10px;
+      padding: 0px 5px;
+    }
+    .text-icon-p{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      padding: 0px 10px;     
+    }
+  
+    .underline {
+      display: flex;
+      gap: 20px;
+      border-bottom: 3px solid #0b57d0;
+     padding: 10px 10px;
+
+
+    }
+    .colour{
+      color: #0b57d0 !important;
+
+    }
+    .slide-bar2-sec1 p{
+      color: black;
+    }
+    .email-massege{
+      width: 100%;
+      display: flex;
+      height: 40px;
+     background-color: white;
+      align-items: center;
+     border-bottom:1px solid rgba(128, 128, 128,0.4) ;
+     border-top: 1px solid rgba(128, 128, 128,0.4);
+    }
+    .email-massege-sec1{
+      width:15% ;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0px 5px;
+
+    }
+    .email-massege-sec2{
+      width:80% ;
+      display: flex;
+      align-items: center;
+      padding: 0px 5px;
+      gap: 10px;
+
+    }
+    .email-massege-sec3{
+      width:5%;
+      display: flex;
+      align-items: center;
+      padding-right: 10px;
+      justify-content: end;
+      gap: 10px;
+
+    }
+    input{
+      cursor: pointer;
+    }
+    .email-massege:hover{
+      box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+      border: none;
+
+    }
+    .overflow{
+     background-color: white;
+     
+    }
+    .slide-bar3{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
